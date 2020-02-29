@@ -8,6 +8,8 @@ class LFS():
         self.maxi = -5
         self.a,self.b=-1,-1
         self.ans = collections.defaultdict(lambda:2)
+        if __name__=="__main__":
+            print(__name__)
     def fun(self,a,b):
         c= b-a
         if(c<a):
